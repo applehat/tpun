@@ -21,8 +21,8 @@ class chatGPT(commands.Cog):
     )
     self.user_threads = {}
     defaultGlobalConfig = {
-        "model": "text-ada-001",
-        "tokenLimit": 1000
+        "model": "text-davinci-003",
+        "tokenLimit": 1024
     }
     defaultGuildConfig = {
         "channels": [],
